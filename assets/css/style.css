@@ -9,7 +9,7 @@ body {
 
 .nav-item {
   margin-right: 28px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .nav-item.active a {
@@ -18,7 +18,7 @@ body {
 }
 
 .nav-link {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .nav-link span {
@@ -39,7 +39,7 @@ body {
 }
 
 .carousel p {
-  font-weight: 200;
+  font-weight: 300;
   line-height: 30px;
 }
 
@@ -50,4 +50,43 @@ body {
 .carousel a span {
   font-weight: 600;
   color: #fff;
+}
+
+/* Features */
+.features h3 {
+  font-family: 'Lora';
+  font-weight: 700;
+  color: #1A258C;
+}
+
+.features p {
+  font-weight: 300;
+  color: #B7B7B7;
+}
+
+.figure h5 {
+  font-weight: 500;
+  color: #171717;
+}
+
+.figure p{
+  color: #B7B7B7;
+}
+
+.figure-img{
+  position: relative;
+}
+.figure-img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.figure-img:hover a{
+  opacity: 1;
 }
