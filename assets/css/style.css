@@ -52,14 +52,14 @@ body {
   color: #fff;
 }
 
-/* Features */
-.features h3 {
+/* Features, Designer */
+.features h3, .designer h3 {
   font-family: 'Lora';
   font-weight: 700;
   color: #1A258C;
 }
 
-.features p {
+.features p, .designer p, footer p {
   font-weight: 300;
   color: #B7B7B7;
 }
@@ -90,3 +90,5 @@ body {
 .figure-img:hover a{
   opacity: 1;
 }
+
+
